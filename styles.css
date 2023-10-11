@@ -4,13 +4,25 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: ;
-    font-family: ;
-    color: ;
-}
-
 body {
+    /* background-color: #EFE3CB; */
+    background-color: #D1C9B6;
+
     width: 100%;
     min-height: 100vh;
+}
+
+div {
+    /* margin-left: 15%; */
+    min-height: 100vh;
+    padding-top: 22%;
+    border: dashed 3px red;
+}
+
+h3 {
+    font-family: 'Reenie Beanie', sans-serif;
+    color: #E9E9E6;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
 }
