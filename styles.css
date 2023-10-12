@@ -7,7 +7,6 @@
 body {
     /* background-color: #EFE3CB; */
     background-color: #D1C9B6;
-
     width: 100%;
     min-height: 100vh;
 }
@@ -16,13 +15,25 @@ div {
     /* margin-left: 15%; */
     min-height: 100vh;
     padding-top: 22%;
-    border: dashed 3px red;
+    /* border: dashed 3px red; */
 }
 
 h3 {
     font-family: 'Reenie Beanie', sans-serif;
-    color: #E9E9E6;
+    color: #776565;
     font-size: 48px;
+    font-weight: 100;
     line-height: 57px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(122, 1, 1);
+}
+
+h5 {
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 20px;
     text-align: center;
 }
