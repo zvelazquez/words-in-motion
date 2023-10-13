@@ -1,39 +1,148 @@
+/* All Page Styles*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    /* background-color: #EFE3CB; */
+html {
+    font-family: 'Reenie Beanie', sans-serif;
     background-color: #D1C9B6;
+}
+
+body {
     width: 100%;
     min-height: 100vh;
 }
 
-div {
-    /* margin-left: 15%; */
+section {
     min-height: 100vh;
     padding-top: 22%;
-    /* border: dashed 3px red; */
+    padding-left: 25%;
 }
 
 h3 {
-    font-family: 'Reenie Beanie', sans-serif;
     color: #776565;
     font-size: 48px;
     font-weight: 100;
     line-height: 57px;
-    text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: rgb(122, 1, 1);
+    color: rgb(92, 134, 138);
 }
 
 h5 {
-    font-family: 'Reenie Beanie', sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Page 1 (index.html) Animations */
+#skimmingStones {
+    animation-name: skimmingStones;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes skimmingStones {
+    from {
+        margin-left: -1000px;
+        transform: skew(60deg);
+        letter-spacing: 30px;
+    }
+    to {
+        margin-left: 0px;
+    }
+}
+
+#floats {
+    animation-name: floats;
+    animation-delay: 1.2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes floats {
+    from {
+        position: relative;
+        top: 0px;
+    }
+    to {
+        position: relative;
+        top: -80px;
+        font-size: 70px;
+        font-weight: 900;
+    }
+}
+
+/* Page 2 Animations */
+#meetFirst {
+    animation-name: meetFirst;
+    animation-delay: 0;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes meetFirst {
+    from {
+        margin-left: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+#meetSecond {
+    position: absolute;
+    top: 373px;
+    animation-name: meetSecond;
+    animation-delay: 0;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes meetSecond {
+    from {
+        margin-left: 368px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 218px;
+        opacity: 1;
+    }
 }
