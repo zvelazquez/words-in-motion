@@ -102,7 +102,7 @@ h5 {
     }
 }
 
-/* Page 2 Animations */
+/* Page 3 Animations */
 #meetFirst {
     animation-name: meetFirst;
     animation-delay: 0;
@@ -145,4 +145,13 @@ h5 {
         margin-left: 218px;
         opacity: 1;
     }
+}
+
+/* Page 3 Animations */
+#circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 
 }
