@@ -38,6 +38,10 @@ h5 {
     text-align: center;
 }
 
+p {
+    font-size: 30px;
+}
+
 #fadeIn {
     animation-name: fadeIn;
     animation-delay: 0s;
@@ -147,11 +151,48 @@ h5 {
     }
 }
 
-/* Page 3 Animations */
-#circle {
+/* Page 4 Animations */
+.page4 {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.circle {
     position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    border-radius: 
+    width: 400px;
+    height: 300px;
+    /* background-color: red; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: circleText 10s linear infinite;
+}
+
+.text span{
+    position: absolute;
+    left: 50%;
+    font-size: 48px;
+    transform-origin: 0 150px;
+}
+
+#arrow {
+    position: absolute;
+    top: 335px;
+}
+
+@keyframes circleText {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

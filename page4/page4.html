@@ -6,11 +6,21 @@
         <link rel="stylesheet" href="../styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reenie+Beanie|Jost">
     </head>
-    <body>
-        <section>
-            <div>
-                <h3><a href="../page5/page5.html">Mother Nature's daughters</a></h3>
+    <body class="page4">
+        <div class="circle">
+            <div class="text">
+                <h3><a href="../page5/page5.html">mother nature's daughters</a></h3>
             </div>
-        </section>
+        </div>
+        <script>
+            const text = document.querySelector('.text h3');
+            text.innerHTML = text.innerText.split('').map(
+                (char, i) =>
+                `<span style="transform:rotate(${i * 13.5}deg)">${char}</span>`
+            ).join('');
+        </script>
+        <div id="arrow">
+            <p><a href="../page5/page5.html">→</a></p>
+        </div>
     </body>
 </html>
