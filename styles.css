@@ -46,7 +46,7 @@ p {
     animation-name: fadeIn;
     animation-delay: 0s;
     animation-direction: forwards;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode:forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease;
@@ -181,7 +181,7 @@ p {
     left: 50%;
     font-size: 48px;
     transform-origin: 0 150px;
-    
+    animation: circleTextOpacity 2s linear 1;
 }
 
 #arrow {
@@ -192,12 +192,17 @@ p {
 @keyframes circleText {
     0% {
         transform: rotate(0deg);
-        opacity: .5;
     }
     100% {
         transform: rotate(360deg);
-        opacity: 1;
     }
 }
 
-@key
+@keyframes circleTextOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
