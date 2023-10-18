@@ -181,6 +181,7 @@ p {
     left: 50%;
     font-size: 48px;
     transform-origin: 0 150px;
+    
 }
 
 #arrow {
@@ -191,10 +192,12 @@ p {
 @keyframes circleText {
     0% {
         transform: rotate(0deg);
-        opacity: 0;
+        opacity: .5;
     }
     100% {
         transform: rotate(360deg);
         opacity: 1;
     }
 }
+
+@key
