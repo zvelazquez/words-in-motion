@@ -118,10 +118,11 @@ p {
     top: 317px;
     left: 495px;
     animation-name: look;
-    animation-duration: 10s;
-    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-delay: 500ms;
     animation-iteration-count: 1;
     animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 
 #outBeyond {
@@ -145,6 +146,64 @@ p {
 }
 
 /* Page 3 Animations */
+#feetF {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 677px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+#feetE1 {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 696px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#feetE2 {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 713px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 1500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+#feetT {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 730px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 2000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes feetLetters {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        color: #776565;
+        opacity: 1;
+    }
+}
+
 #meetFirst {
     animation-name: meetFirst;
     animation-delay: 0;
@@ -168,7 +227,7 @@ p {
 
 #meetSecond {
     position: absolute;
-    top: 373px;
+    top: 374px;
     animation-name: meetSecond;
     animation-delay: 0;
     animation-direction: forwards;
@@ -246,7 +305,50 @@ p {
 }
 
 /* Page 5 Animations */
+#down {
+    position: absolute;
+    top: 317px;
+    left: 657px;
+    animation: down;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
 
+#asItMust {
+    position: absolute;
+    top: 317px;
+    left: 725px;
+}
+
+#up {
+    color: #776565;
+    position: absolute;
+    top: 317px;
+    right: 365px;
+    animation: up;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@keyframes down {
+    0% {
+    }
+    100% {
+        top: 400px;
+    }
+}
+
+@keyframes up {
+    0% {
+        color: #776565;
+    }
+    100% {
+        top: 235px;
+    }
+}
 
 /* Page 6 Animations */
 
@@ -256,14 +358,69 @@ p {
 
 /* Page 8 Animations */
 .page8 {
-    display: grid;
+    /* display: grid; */
     place-items: center;
     min-height: 100vh;
     text-align: center;
 }
 
-#wordStack {
-    
+#happy {
+    position: absolute;
+    top: -50px;
+    left: 675px;
+    animation-name: happy;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#ever {
+    position: absolute;
+    top: -50px;
+    left: 675px;
+    animation-name: ever;
+    animation-duration: 3s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+#after {
+    position: absolute;
+    top: -50px;
+    left: 675px;
+    animation-name: after;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes happy {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 330px;
+        opacity: 1;
+    }
+}
+
+@keyframes ever {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 380px;
+        opacity: 1;
+    }
+}
+
+@keyframes after {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 430px;
+        opacity: 1;
+    }
 }
 
 /* Page 9 Animations */
@@ -278,19 +435,10 @@ p {
 /* Page 12 Animations */
 
 
-/* Page 13 Animations */
-.page13 {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    text-align: center;
-}
-
-#wordStack {
-    
-}
+/* Page 13 Animations (SEE PAGE 8)*/
 
 /* Page 14 Animations */
 #centerText {
     text-align: center;
 }
+
