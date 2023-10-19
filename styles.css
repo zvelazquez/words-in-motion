@@ -17,6 +17,12 @@ body {
 
 section {
     min-height: 100vh;
+    padding-top: 20%;
+    /* padding-left: 25%; */
+}
+
+.padLeft {
+    min-height: 100vh;
     padding-top: 22%;
     padding-left: 25%;
 }
@@ -105,6 +111,9 @@ p {
         font-weight: 900;
     }
 }
+
+/* Page 2 Animations */
+
 
 /* Page 3 Animations */
 #meetFirst {
@@ -205,4 +214,54 @@ p {
     100% {
         opacity: 1;
     }
+}
+
+/* Page 5 Animations */
+
+
+/* Page 6 Animations */
+
+
+/* Page 7 Animations */
+
+
+/* Page 8 Animations */
+.page8 {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#wordStack {
+    
+}
+
+/* Page 9 Animations */
+
+
+/* Page 10 Animations */
+
+
+/* Page 11 Animations */
+
+
+/* Page 12 Animations */
+
+
+/* Page 13 Animations */
+.page13 {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#wordStack {
+    
+}
+
+/* Page 14 Animations */
+#centerText {
+    text-align: center;
 }
