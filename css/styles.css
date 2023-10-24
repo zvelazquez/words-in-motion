@@ -68,9 +68,6 @@ p {
 }
 
 #letterOne {
-    position: absolute;
-    top: 317px;
-    right: 610px;
     animation-name: waveMotion;
     animation-delay: 0s;
     animation-direction: forwards;
@@ -81,9 +78,6 @@ p {
 }
 
 #letterTwo {
-    position: absolute;
-    top: 317px;
-    right: 587px;
     animation-name: waveMotion;
     animation-delay: 200ms;
     animation-direction: forwards;
@@ -94,9 +88,6 @@ p {
 }
 
 #letterThree {
-    position: absolute;
-    top: 317px;
-    right: 575px;
     animation-name: waveMotion;
     animation-delay: 400ms;
     animation-direction: forwards;
@@ -107,9 +98,6 @@ p {
 }
 
 #letterFour {
-    position: absolute;
-    top: 317px;
-    right: 560px;
     animation-name: waveMotion;
     animation-delay: 600ms;
     animation-direction: forwards;
@@ -120,9 +108,6 @@ p {
 }
 
 #letterFive {
-    position: absolute;
-    top: 317px;
-    right: 545px;
     animation-name: waveMotion;
     animation-delay: 800ms;
     animation-direction: forwards;
@@ -216,6 +201,36 @@ p {
         font-size: 200px;
         opacity: .1;
     }
+}
+
+.waterPositionW {
+    position: absolute;
+    top: 317px;
+    right: 605px;
+}
+
+.waterPositionA {
+    position: absolute;
+    top: 317px;
+    right: 580px;
+}
+
+.waterPositionT {
+    position: absolute;
+    top: 317px;
+    right: 565px;
+}
+
+.waterPositionE {
+    position: absolute;
+    top: 317px;
+    right: 550px;
+}
+
+.waterPositionR {
+    position: absolute;
+    top: 317px;
+    right: 535px;
 }
 
 /* Page 3 Animations */
