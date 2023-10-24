@@ -67,6 +67,83 @@ p {
     }
 }
 
+#letterOne {
+    position: absolute;
+    top: 317px;
+    right: 610px;
+    animation-name: waveMotion;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterTwo {
+    position: absolute;
+    top: 317px;
+    right: 587px;
+    animation-name: waveMotion;
+    animation-delay: 200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterThree {
+    position: absolute;
+    top: 317px;
+    right: 575px;
+    animation-name: waveMotion;
+    animation-delay: 400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFour {
+    position: absolute;
+    top: 317px;
+    right: 560px;
+    animation-name: waveMotion;
+    animation-delay: 600ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFive {
+    position: absolute;
+    top: 317px;
+    right: 545px;
+    animation-name: waveMotion;
+    animation-delay: 800ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes waveMotion {
+    0% {
+        top: 320px;
+    }
+    50% {
+        top: 310px;
+    }
+    100% {
+        top: 320px;
+    }
+}
+
 /* Page 1 (index.html) Animations */
 #skimmingStones {
     animation-name: skimmingStones;
@@ -129,10 +206,6 @@ p {
     position: absolute;
     top: 317px;
     left: 568px;
-}
-
-#water {
-
 }
 
 @keyframes look {
