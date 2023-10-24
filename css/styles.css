@@ -671,7 +671,80 @@ p {
 
 
 /* Page 12 Animations */
+#periodOnePosition {
+    position: absolute;
+    top: 374px;
+    left: 400px;
+    animation-name: bounceOne;
+    animation-duration: 2s;
+    animation-direction: both;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
 
+#periodTwoPosition {
+    position: absolute;
+    top: 374px;
+    left: 406px;
+    animation-name: bounceTwo;
+    animation-duration: 2s;
+    animation-direction: both;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#periodThreePosition {
+    position: absolute;
+    top: 374px;
+    left: 412px;
+    animation-name: bounceThree;
+    animation-duration: 2s;
+    animation-direction: both;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes bounceOne {
+    0% {
+        top: 374px;
+        left: 400px;
+    }
+    50%{
+        left: 420px;
+    }
+    100% {
+        left: 400px;
+    }
+}
+
+@keyframes bounceTwo {
+    0% {
+        top: 374px;
+        left: 406px;
+    }
+    50%{
+        left: 446px;
+    }
+    100% {
+        left: 406px;
+    }
+}
+
+@keyframes bounceThree {
+    0% {
+        top: 374px;
+        left: 412px;
+    }
+    50%{
+        left: 492px;
+    }
+    100% {
+        left: 412px;
+    }
+}
 
 /* Page 13 Animations (SEE PAGE 8)*/
 
