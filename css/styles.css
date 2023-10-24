@@ -223,16 +223,6 @@ p {
     left: 568px;
 }
 
-@keyframes look {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        font-size: 200px;
-        opacity: .1;
-    }
-}
-
 .waterPositionW {
     position: absolute;
     top: 317px;
@@ -530,6 +520,36 @@ p {
     left: 501px;
 }
 
+.myGirls {
+    position: absolute;
+    top: 375px;
+    animation-name: myGirls;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.myGirls:hover {
+    animation-play-state: running;
+}
+
+@keyframes myGirls {
+    0% {
+        transform: rotate(0deg);
+        font-size: 48px;
+    }
+    50% {
+        font-size: 68px;
+    }
+    100% {
+        transform: rotate(-360deg);
+        font-size: 48px;
+    }
+}
+
 /* Page 8 Animations */
 .page8 {
     /* display: grid; */
@@ -630,7 +650,7 @@ p {
     }
 }
 
-/* Page 10 Animations */
+/* Page 10 Animations (SEE PAGE 7)*/
 
 
 /* Page 11 Animations (SEE PAGE 9)*/
