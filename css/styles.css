@@ -598,7 +598,37 @@ p {
 }
 
 /* Page 9 Animations */
+#okay {
+    animation-name: okayExhale;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: paused;
+}
 
+#okay:hover {
+    animation-play-state: running;
+}
+
+@keyframes okayExhale {
+    0%{
+        position: absolute;
+        color: rgb(92, 134, 138);
+        top: 317px;
+        left: 360px;
+        font-size: 48px;
+        opacity: .3;
+    }
+    100% {
+        position: absolute;
+        top: 310px;
+        left: 210px;
+        font-size: 280px;
+        opacity: 0;
+    }
+}
 
 /* Page 10 Animations */
 
