@@ -524,7 +524,11 @@ p {
 }
 
 /* Page 7 Animations */
-
+.onTheBeachPosition {
+    position: absolute;
+    top: 375px;
+    left: 501px;
+}
 
 /* Page 8 Animations */
 .page8 {
