@@ -19,8 +19,7 @@ There is ONE CSS file for the whole site, which is linked to each HTML page. The
 
 Extra additions include an IMG (image) and JS (javascript) folder. No images were used on the site so the folder is empty. Javascript was used by being incorporated inline the HTML, but no additional script files were used. 
 
-
-
-
+Web-safe font "Reenie Beanie" used from Google Fonts.
 
 # acknowledgments 
+Javascript for rotating circle text ocated on "page4.html" at lines 15-21 borrowed from Codes Tutorials on YouTube (https://www.youtube.com/watch?v=5SHQbbUCgkk) 
