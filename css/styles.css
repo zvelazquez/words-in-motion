@@ -315,16 +315,20 @@ p {
 @keyframes feetLetters {
     0% {
         opacity: 0;
+        font-size: 88px;
     }
     100% {
         color: #776565;
         opacity: 1;
+        font-size: 48px;
     }
 }
 
 #meetFirst {
+    color: #D1C9B6;
+    opacity: 0;
     animation-name: meetFirst;
-    animation-delay: 0;
+    animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode:forwards;
@@ -335,19 +339,21 @@ p {
 @keyframes meetFirst {
     from {
         margin-left: -150px;
-        opacity: 0;
     }
     to {
         margin-left: 0px;
         opacity: 1;
+        color: rgb(92, 134, 138);
     }
 }
 
 #meetSecond {
     position: absolute;
     top: 374px;
+    color: #D1C9B6;
+    opacity: 0;
     animation-name: meetSecond;
-    animation-delay: 0;
+    animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode:forwards;
@@ -358,11 +364,11 @@ p {
 @keyframes meetSecond {
     from {
         margin-left: 368px;
-        opacity: 0;
     }
     to {
         margin-left: 218px;
         opacity: 1;
+        color: rgb(92, 134, 138);
     }
 }
 
