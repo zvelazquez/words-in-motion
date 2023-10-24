@@ -17,6 +17,10 @@ The site is structure using a large amount of different folders, one correspondi
 
 There is ONE CSS file for the whole site, which is linked to each HTML page. There are comment lines on the CSS page seperating the CSS code for different pages on the site. The CSS code at the top of the file is used on multiple, if not all pages. 
 
+Extra additions include an IMG (image) and JS (javascript) folder. No images were used on the site so the folder is empty. Javascript was used by being incorporated inline the HTML, but no additional script files were used. 
+
+
+
 
 
 # acknowledgments 
