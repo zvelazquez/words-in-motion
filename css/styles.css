@@ -200,7 +200,6 @@ p {
         position: relative;
         top: -80px;
         font-size: 70px;
-        font-weight: 900;
     }
 }
 
@@ -211,10 +210,25 @@ p {
     left: 495px;
     animation-name: look;
     animation-duration: 5s;
-    animation-delay: 500ms;
+    animation-delay: 0s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+}
+
+@keyframes look {
+    0% {
+        transform: rotateX(90deg);
+        size: 48px;
+    }
+    50% {
+        transform: rotateX(-90deg);
+        font-size: 68px;
+    }
+    100% {
+        transform: rotateX(0deg);
+        font-size: 48px;
+    }
 }
 
 #outBeyond {
