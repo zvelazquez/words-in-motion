@@ -117,6 +117,36 @@ p {
     animation-timing-function: ease;
 }
 
+#letterSix {
+    animation-name: waveMotion;
+    animation-delay: 1000ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterSeven {
+    animation-name: waveMotion;
+    animation-delay: 1200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterEight {
+    animation-name: waveMotion;
+    animation-delay: 1400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
 @keyframes waveMotion {
     0% {
         top: 320px;
@@ -439,7 +469,53 @@ p {
 }
 
 /* Page 6 Animations */
+.laughterPositionL {
+    position: absolute;
+    top: 317px;
+    left: 673px;
+}
 
+.laughterPositionA {
+    position: absolute;
+    top: 317px;
+    left: 683px;
+}
+
+.laughterPositionU {
+    position: absolute;
+    top: 317px;
+    left: 707px;
+}
+
+.laughterPositionG {
+    position: absolute;
+    top: 317px;
+    left: 725px;
+}
+
+.laughterPositionH {
+    position: absolute;
+    top: 317px;
+    left: 740px;
+}
+
+.laughterPositionT {
+    position: absolute;
+    top: 317px;
+    left: 759px;
+}
+
+.laughterPositionE {
+    position: absolute;
+    top: 317px;
+    left: 774px;
+}
+
+.laughterPositionR {
+    position: absolute;
+    top: 317px;
+    left: 791px;
+}
 
 /* Page 7 Animations */
 
