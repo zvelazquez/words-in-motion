@@ -11,18 +11,14 @@ html {
 }
 
 body {
-    /* width: 100vw;
-    min-height: 100vh; */
     height: 712px;
     width: 1440px;
 }
 
 section {
-    /* min-height: 100vh; */
     height: 712px;
     width: 1440px;
     padding-top: 20%;
-    /* padding-left: 25%; */
 }
 
 .padLeft {
