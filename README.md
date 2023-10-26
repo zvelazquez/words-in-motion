@@ -22,4 +22,6 @@ Extra additions include an IMG (image) and JS (javascript) folder. No images wer
 Web-safe font "Reenie Beanie" used from Google Fonts.
 
 # acknowledgments 
-Javascript for rotating circle text ocated on "page4.html" at lines 15-21 borrowed from Codes Tutorials on YouTube (https://www.youtube.com/watch?v=5SHQbbUCgkk) 
+Song lyrics for "The Beach II" written and performed by Wolf Alice.
+
+Javascript for rotating circle text ocated on "page4.html" at lines 15-21 borrowed from Codes Tutorials on YouTube (https://www.youtube.com/watch?v=5SHQbbUCgkk).  
