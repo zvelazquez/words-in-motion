@@ -575,6 +575,23 @@ p {
     place-items: center;
     min-height: 100vh;
     text-align: center;
+    animation-name: underwater;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes underwater {
+    0% {
+        background-color: rgb(92, 134, 138);
+        opacity: 0;
+    }
+    100% {
+        background-color: rgb(92, 134, 138);
+        opacity: 1;
+    }
 }
 
 #happy {
@@ -584,6 +601,10 @@ p {
     animation-name: happy;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+}
+
+#happy a {
+    color: #D1C9B6;
 }
 
 #ever {
@@ -596,6 +617,10 @@ p {
     animation-fill-mode: forwards;
 }
 
+#ever a {
+    color: #D1C9B6;
+}
+
 #after {
     position: absolute;
     top: -50px;
@@ -604,6 +629,15 @@ p {
     animation-duration: 3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+}
+
+#after a {
+    color: #D1C9B6;
+}
+
+#after a:hover {
+    color: #ffc130;
+    transition-duration: 1s;
 }
 
 @keyframes happy {
@@ -637,6 +671,29 @@ p {
 }
 
 /* Page 9 Animations */
+.page9 {
+    background-color:rgb(92, 134, 138);
+    height: 712px;
+    width: 1440px;
+    animation-name: emerge;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes emerge {
+    0% {
+        background-color: rgb(92, 134, 138);
+        opacity: 1;
+    }
+    100% {
+        background-color:  rgb(92, 134, 138);
+        opacity: 0;
+    }
+}
+
 #okay {
     animation-name: okayExhale;
     animation-duration: 3.5s;
