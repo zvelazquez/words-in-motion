@@ -405,7 +405,7 @@ p {
 .text span{
     position: absolute;
     left: 50%;
-    font-size: 48px;
+    font-size: 56px;
     transform-origin: 0 150px;
     animation: circleTextOpacity 2s linear 1;
 }
