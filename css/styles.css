@@ -210,7 +210,7 @@ p {
 }
 
 /* Page 2 Animations */
-#look {
+.look {
     position: absolute;
     top: 317px;
     left: 495px;
@@ -237,7 +237,7 @@ p {
     }
 }
 
-#outBeyond {
+.outBeyond {
     position: fixed;
     top: 317px;
     left: 568px;
@@ -246,31 +246,31 @@ p {
 .waterPositionW {
     position: absolute;
     top: 317px;
-    right: 605px;
+    left: 818px;
 }
 
 .waterPositionA {
     position: absolute;
     top: 317px;
-    right: 580px;
+    left: 837px;
 }
 
 .waterPositionT {
     position: absolute;
     top: 317px;
-    right: 565px;
+    left: 860px;
 }
 
 .waterPositionE {
     position: absolute;
     top: 317px;
-    right: 550px;
+    left: 876px;
 }
 
 .waterPositionR {
     position: absolute;
     top: 317px;
-    right: 535px;
+    left: 892px;
 }
 
 /* Page 3 Animations */
